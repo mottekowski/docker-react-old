@@ -1,0 +1,8 @@
+sudo: required
+services:
+    - docker
+
+before_install:
+    - docker build -t mottekowski/docker-react -f Dockerfile.dev .
+script:
+    - docker run -e CI=true mottekowski/docker-react npm run test
