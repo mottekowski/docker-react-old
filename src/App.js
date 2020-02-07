@@ -13,7 +13,7 @@ function App() {
         <p>
           Läuft immer noch!
         </p>
-        <p>Und noch immer</p>
+        <p>Und noch immer, auch in 2020</p>
         <p>Änderung in FEATURE Branch</p>
         <a
           className="App-link"
